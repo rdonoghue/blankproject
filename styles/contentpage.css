@@ -1,0 +1,33 @@
+/* BODY */
+
+main {
+  display: grid;
+  grid-template-columns: calc(100% - 20rem) auto;
+  grid-template-rows: auto;
+  gap: 1rem;
+  margin: 1rem;
+  gap: 1rem;
+  min-height: calc(100vh - 8rem);
+}
+
+article {
+  margin: 1rem 4rem 1rem 4rem;
+}
+
+/* NAVIGATION */
+nav {
+  border: 0;
+}
+
+.toc {
+  position: sticky;
+  top: 1rem;
+}
+
+.toc ul {
+  padding-left: 1rem;
+}
+
+.toc li {
+  list-style-type: none;
+}
